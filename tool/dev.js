@@ -19,6 +19,7 @@ const gwei = 125;
 const INPUT_FILE = path.resolve(__dirname, "../src/index.js");
 const INPUT_LAYOUT = path.resolve(__dirname, "./layout.html");
 
+const OUTPUT_DIR = path.resolve(__dirname, "../www");
 const OUTPUT_FILE = path.resolve(__dirname, "../www/main.js");
 const OUTPUT_FILE_MIN = path.resolve(__dirname, "../www/main.min.js");
 const OUTPUT_LAYOUT = path.resolve(__dirname, "../www/index.html");
@@ -114,6 +115,7 @@ async function template() {
   try {
     fs.statSync(OUTPUT_LAYOUT);
   } catch (err) {
+    fs.mkdirSync(OUTPUT_DIR);
     fs.copyFileSync(INPUT_LAYOUT, OUTPUT_LAYOUT);
   }
 }
