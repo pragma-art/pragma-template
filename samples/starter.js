@@ -1,4 +1,4 @@
-import { set_seed, rangeFloor } from "../src/util/random.js";
+import { set_seed, rangeFloor } from "./util/random.js";
 
 let attributes = {};
 
