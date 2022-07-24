@@ -2,9 +2,9 @@
 
 A starter template for creating generative artwork using [p5.js](https://p5js.org/)
 
-<img src="./tool/cover.png" width="50%" />
+<img src="./tool/cover.png" width="35%" />
 
-Features:
+## Features:
 
 - A simple framework
 - Live reload on code changes
