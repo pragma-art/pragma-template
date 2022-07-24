@@ -1,0 +1,3 @@
+{
+  "include": ["src/*.js", "tool/p5types/global.d.ts"]
+}
