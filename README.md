@@ -9,7 +9,7 @@ A starter template for creating generative artwork using [p5.js](https://p5js.or
 - A simple framework
 - Live reload on code changes
 - Strong minification/compression
-- Prints minfied bytes and approximate MATIC deploy cost on each reload
+- Prints minfied bytes and approximate ETH deploy cost on each reload
 - A robust pseudo-random number generator and hashing function (`hash`)
 - Utilities for color, math, random, and vector to get you started
 
@@ -44,6 +44,6 @@ See `./src/` folder:
 - `index.js` is the main entry point which sets up the p5.js rules
 - `util/` is a folder that contains some example utilities (PRNG, color, math)
 
-## License
+## License & Disclamer
 
 [MIT](https://choosealicense.com/licenses/mit/)
