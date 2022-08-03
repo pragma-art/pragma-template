@@ -1,10 +1,10 @@
-<img src="./assets/demo.jpg" />
+<img src="./tool/demo.jpg" />
 <br/>
 <br/>
 
-## Pragma Starter
+## Pragma Template
 
-A javascript based starter template for creating generative artwork using [p5.js](https://p5js.org/)
+A starter template for creating generative artwork using [p5.js](https://p5js.org/)
 
 ### Features:
 
@@ -25,6 +25,13 @@ cd pragma-template
 npm install
 ```
 
+## Folder Structure
+
+See `./src/` folder:
+
+- `index.js` is the main entry point which sets up the p5.js rules
+- `util/` is a folder that contains some example utilities (PRNG, color, math)
+
 ## Usage
 
 Run one of the following scripts in the same terminal
@@ -40,13 +47,6 @@ Hit `Ctrl + C` to quit the development server.
 Produces a final production build `.zip` file to `project.zip`, giving byte and ETH cost stats.
 
 You can upload this `.zip` file to the Pragma [playground](https://beta.pragma.art/playground) directly
-
-## Source Structure
-
-See `./src/` folder:
-
-- `index.js` is the main entry point which sets up the p5.js rules
-- `util/` is a folder that contains some example utilities (PRNG, color, math)
 
 ## License & Disclamer
 
