@@ -4,21 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "node tool/dev.js --zip",
-    "inspect": "node tool/dev.js --inspect",
-    "dev": "node tool/dev.js --dev"
+    "build": "pragma-template --zip",
+    "inspect": "pragma-template --inspect",
+    "dev": "pragma-template --dev"
   },
-  "devDependencies": {
-    "@rollup/plugin-json": "^4.1.0",
-    "@rollup/plugin-node-resolve": "^13.0.0",
-    "acorn": "^8.2.4",
-    "acorn-walk": "^8.1.0",
-    "babel-minify": "^0.5.1",
-    "colorette": "^1.2.2",
-    "live-server": "^1.2.1",
-    "pretty-bytes": "^5.6.0",
-    "rollup": "^2.50.2",
-    "terser": "^5.7.0",
-    "archiver": "^5.3.1"
+  "dependencies": {
+    "pragma-template": "^1.0.2"
   }
 }
