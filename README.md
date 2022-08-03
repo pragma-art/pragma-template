@@ -36,7 +36,7 @@ See `./src/` folder:
 
 Run one of the following scripts in the same terminal
 
-#### `npm run start`
+#### `npm run dev`
 
 Runs a development server on http://localhost:8081, where changing code in `src/` (or `www/index.html`) will automatically rebuild to `www/main.min.js` and then reload the page.
 
