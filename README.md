@@ -1,10 +1,12 @@
-# Pragma Template
+<img src="./assets/demo.jpg" />
+<br/>
+<br/>
 
-A starter template for creating generative artwork using [p5.js](https://p5js.org/)
+## Pragma Starter
 
-<img src="./tool/cover.png" width="35%" />
+A javascript based starter template for creating generative artwork using [p5.js](https://p5js.org/)
 
-## Features:
+### Features:
 
 - A simple framework
 - Live reload on code changes
@@ -35,7 +37,9 @@ Hit `Ctrl + C` to quit the development server.
 
 #### `npm run build`
 
-Produces a final production build zip file to `project.zip`, giving byte and ETH cost stats.
+Produces a final production build `.zip` file to `project.zip`, giving byte and ETH cost stats.
+
+You can upload this `.zip` file to the Pragma [playground](https://beta.pragma.art/playground) directly
 
 ## Source Structure
 
