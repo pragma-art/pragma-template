@@ -1,4 +1,4 @@
-<img src="./tool/demo.jpg" />
+<img src="./demo.jpg" />
 <br/>
 <br/>
 
